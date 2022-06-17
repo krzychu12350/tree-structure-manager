@@ -8,6 +8,7 @@ The application was implemented using the following technologies:<br>
 - MySql Ver 15.1 Distrib 10.4.22-MariaDB<br>
 - PHP 8.1.2, Laravel Framework 9.17.0<br>
 - HTML5, CSS3, Javascript, jQuery 3.3.1<br>
+
 ## Setup ##
 1. Clone the repository to your computer by typing in terminal:<br>
 ```https://github.com/krzychu12350/tree-structure-manager```
@@ -24,7 +25,7 @@ The application was implemented using the following technologies:<br>
 - ```npm install; npm run dev```
 - ```php artisan migrate --seed```
 - ```php artisan serve```
-6. Type in ```http://127.0.0.1:8000``` in your web browser
+7. Type in ```http://127.0.0.1:8000``` in your web browser
 ## User names needed to run the application ##
 
 • Administrator<br>
@@ -34,3 +35,29 @@ Password: ```Admin?password123```<br>
 • User<br>
 Email Address: ```user@gmail.com```<br>
 Password: ```User?password123```<br>
+
+## Screenshots ##
+
+### Login view ###
+![Login View](./screenshots/login-view.jpg)
+#### Enter your email address and password to log in ####
+
+### Register view ###
+![Register View](./screenshots/register-view.jpg)
+#### Enter your name, email address and password to register ####
+
+### User dashboard view ###
+![User Dashboard View](./screenshots/user-dashboard-view.jpg)
+#### Double-click a tree root or node to collapse or expand its children ####
+
+### Admin dashboard adding view ###
+![Admin Dashboard Adding View](./screenshots/admin-dashboard-adding-view.jpg)
+#### Enter the name of the new node or leaf and select or click on the selected node or leaf to be the parent of the new node or leaf ####
+
+### Admin dashboard editing view ###
+![Admin Dashboard Editing View](./screenshots/admin-dashboard-editing-view.jpg)
+#### Select the node or leaf you want to edit ####
+
+### Admin dashboard deleting view ###
+![Admin Dashboard Deleting View](./screenshots/admin-dashboard-deleting-view.jpg)
+#### Select the node or leaf you want to delete ####
